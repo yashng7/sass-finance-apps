@@ -7,7 +7,7 @@ type Props = {};
 
 const Header = (props: Props) => {
   return (
-    <header className="sticky top-0 z-50">
+    <header className="sticky top-0 z-50 backdrop-blur-3xl">
       <div className="flex items-center justify-between p-4">
         <Navbar />
         <ModeToggle />
